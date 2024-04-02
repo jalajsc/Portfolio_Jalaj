@@ -6,7 +6,7 @@ function About() {
       name="about"
       className="about h-100 w-full flex items-center justify-center bg-gradient-to-b from-slate-700 via-slate-900 to-black text-white"
     >
-      <div className="max-w-screen-lg h-full px-4 flex flex-col justify-center">
+      <div className="max-w-screen-lg h-full px-4 flex flex-col justify-center mt-20">
         <h1 className="text-5xl underline">About</h1>
         <h1 className="mt-8 text-xl">
           I'm a versatile web developer proficient in both backend and frontend

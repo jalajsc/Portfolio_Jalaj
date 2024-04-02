@@ -77,7 +77,7 @@ function Experience() {
   return (
     <div className="experience w-full bg-gradient-to-b from-slate-700 via-slate-900 to-black text-white flex justify-center">
       <div className="h-full w-full max-w-screen-lg flex flex-col mt-20 p-4">
-        <h1 className="text-5xl">Experience</h1>
+        <h1 className="text-5xl underline">Experience</h1>
         <h3 className="text">Technologies that I worked with.</h3>
 
         <div className="grid md:grid-cols-3 sm:grid-cols-2 mt-10 gap-20">

@@ -10,7 +10,7 @@ const handleSubmit = (e) => {
 function Contact() {
   return (
     <div className="contact w-full flex justify-center bg-gradient-to-b from-black via-slate-900 to-slate-500 text-white">
-      <div className="h-full w-full max-w-screen-lg flex flex-col mt-20 p-4 mb-1  0">
+      <div className="h-full w-full max-w-screen-lg flex flex-col mt-36 p-4">
         <h1 className="text-5xl underline mb-10 ">Contact</h1>
         <div className="flex flex-col md:flex-row justify-center">
           <div className="flex flex-col p-6 justify-center">
