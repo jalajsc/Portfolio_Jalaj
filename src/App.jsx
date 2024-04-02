@@ -1,6 +1,5 @@
 import { useState } from "react";
 import SidebarLinks from "./components/SidebarLinks";
-import "./App.css";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import About from "./components/About";
