@@ -6,6 +6,7 @@ import { Link } from "react-scroll";
 
 function NavBar() {
   const [sidebar, setSideBar] = useState(false);
+  const [nav, setNav] = useState(false);
   const openSide = () => {
     setSideBar(!sidebar);
   };
@@ -90,6 +91,7 @@ function NavBar() {
           <ul className="flex flex-col items-center justify-between m-auto gap-10 text-xl">
             <li>
               <Link
+                onClick={() => setSideBar(!sidebar)}
                 smooth
                 duration={1000}
                 to="home"
@@ -100,9 +102,10 @@ function NavBar() {
             </li>
             <li>
               <Link
+                onClick={() => setSideBar(!sidebar)}
                 smooth
                 duration={1000}
-                href="about"
+                to="about"
                 className="hover:text-white hover:text-2xl after:content-[''] after:block after:w-0 after:h-[2px] after:mt-1 after:bg-white after:duration-500 after:-translate-x-4 hover:after:w-[160%] duration-300 cursor-pointer"
               >
                 About
@@ -110,9 +113,10 @@ function NavBar() {
             </li>
             <li>
               <Link
+                onClick={() => setSideBar(!sidebar)}
                 smooth
                 duration={1000}
-                href="portfolio"
+                to="portfolio"
                 className="hover:text-white hover:text-2xl after:content-[''] after:block after:w-0 after:h-[2px] after:mt-1 after:bg-white after:duration-500 after:-translate-x-4 hover:after:w-[160%] duration-300 cursor-pointer"
               >
                 Portfolio
@@ -120,9 +124,10 @@ function NavBar() {
             </li>
             <li>
               <Link
+                onClick={() => setSideBar(!sidebar)}
                 smooth
                 duration={1000}
-                href="experience"
+                to="experience"
                 className="hover:text-white hover:text-2xl after:content-[''] after:block after:w-0 after:h-[2px] after:mt-1 after:bg-white after:duration-500 after:-translate-x-4 hover:after:w-[160%] duration-300 cursor-pointer"
               >
                 Experience
@@ -130,9 +135,10 @@ function NavBar() {
             </li>
             <li>
               <Link
+                onClick={() => setSideBar(!sidebar)}
                 smooth
                 duration={1000}
-                href="contact"
+                to="contact"
                 className="hover:text-white hover:text-2xl after:content-[''] after:block after:w-0 after:h-[2px] after:mt-1 after:bg-white after:duration-500 after:-translate-x-4 hover:after:w-[160%] duration-300 cursor-pointer"
               >
                 Contact
