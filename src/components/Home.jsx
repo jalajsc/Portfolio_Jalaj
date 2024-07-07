@@ -4,6 +4,7 @@ import { IoMdArrowDropright } from "react-icons/io";
 import { Link } from "react-scroll";
 import { FaFileDownload } from "react-icons/fa";
 import image from "../assets/Jalaj.png";
+import resume from "../assets/Jalaj Resume 0.pdf";
 
 function Home() {
   return (
@@ -39,7 +40,7 @@ function Home() {
               />
             </Link>
             <a
-              href="../assets/Jalaj Resume (revised).pdf"
+              href={resume}
               className="group flex justify-between text-white text-xl bg-green-700 w-[140px] p-2 rounded-lg mt-4 hover:scale-105 duration-300"
               download={true}
               target="_blank"
@@ -57,7 +58,8 @@ function Home() {
           <img
             src={image}
             alt="Profile Picture of Jalaj Singh"
-            className="w-[400px]"
+            className="w-[400px] drop-shadow-md"
+            style={{ dropShadow: "2px 4px 0 black" }}
           />
           {/* <BsPersonFill size={600} /> */}
         </div>

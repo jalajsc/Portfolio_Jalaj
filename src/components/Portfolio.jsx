@@ -1,36 +1,39 @@
 import React from "react";
 import project1 from "../assets/Portfolio_Images/Plant_disease_detection.png";
 import project2 from "../assets/Portfolio_Images/Rubik's_cube_colver.png";
+import project3 from "../assets/Portfolio_Images/speech_to_sign.png";
+import project4 from "../assets/Portfolio_Images/Quiz_App_React.jpeg";
+import project5 from "../assets/Portfolio_Images/Todos_React.jpeg";
 
 const projects = [
   {
     id: 1,
     src: project1,
-    repo: "#",
+    repo: "https://github.com/jalajsc/Plant-Leaf-Disease-Detection-Project",
     link: "#",
   },
   {
     id: 2,
     src: project2,
-    repo: "#",
+    repo: "https://github.com/jalajsc/Rubik-s-Cube-Solver-",
     link: "#",
   },
   {
     id: 3,
-    src: project1,
-    repo: "#",
+    src: project3,
+    repo: "https://github.com/jalajsc/Audio-to-SignLanguage-Converter",
     link: "#",
   },
   {
     id: 4,
-    src: project1,
-    repo: "#",
-    link: "#",
+    src: project4,
+    repo: "https://github.com/jalajsc/SpriteEra_QuizApp",
+    link: "https://spritequizapp.netlify.app/",
   },
   {
     id: 5,
-    src: project1,
-    repo: "#",
+    src: project5,
+    repo: "https://github.com/jalajsc/Todos-List",
     link: "#",
   },
 ];
@@ -52,10 +55,18 @@ function Portfolio() {
                 className="hover:scale-[110%] duration-300 rounded-t-lg"
               />
               <div className="h-20 flex justify-center items-center">
-                <a href={link} className="w-1/2 justify-center flex">
+                <a
+                  href={link}
+                  target="_blank"
+                  className="w-1/2 justify-center flex"
+                >
                   Link
                 </a>
-                <a href={repo} className="w-1/2 justify-center flex">
+                <a
+                  href={repo}
+                  target="_blank"
+                  className="w-1/2 justify-center flex"
+                >
                   GitHub
                 </a>
               </div>

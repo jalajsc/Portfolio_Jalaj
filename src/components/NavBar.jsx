@@ -8,7 +8,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import { ImProfile } from "react-icons/im";
 import { BsTwitterX } from "react-icons/bs";
-import resume from "../assets/Jalaj Resume (revised).pdf";
+import resume from "../assets/Jalaj Resume 0.pdf";
 
 function NavBar() {
   const SocialMediaLink = [
